@@ -15,8 +15,6 @@ h2{
   text-transform: capitalize;
 }
 
-@media only screen and (max-width:768px){
-
 header{
   height: 70vh;
   background-image: url(pic1.jpg);
@@ -350,7 +348,6 @@ margin: 0;
   padding: 2rem 0;
 }
 
-}
 /*
 @media only screen and (min-width:1700px){
   header{
