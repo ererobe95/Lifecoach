@@ -16,7 +16,7 @@ h2{
 }
 
 header{
-  height: 70vh;
+  height: 40vh;
   background-image: url(pic1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ header{
   color: white;
   align-items: center;
   text-transform: capitalize;
-  
+  font-size: 3rem;
 }
 
 .nav-info{
@@ -53,13 +53,16 @@ header{
   justify-content: space-around;
 }
 
+.nav-info h2 {
+  font-size: 3rem;
+}
 .nav-info h2, .nav-info #toggle-btn{
   text-transform: capitalize;
   font-weight: 800;
 }
 
 #toggle-btn{
-  font-size: 1.2rem;
+  font-size: 3rem;
   cursor: pointer;
   background: none;
   border: none;
@@ -74,8 +77,8 @@ header{
 .navlinks a {
   display: block;
   text-decoration: none;
-  font-size: 1.2rem;
-  margin: 1.2rem 0;
+  font-size: 3rem;
+  margin: 3rem 0;
   color: black;
   text-transform: capitalize;
   font-weight: 300;
@@ -114,7 +117,7 @@ header{
   text-align: right;
   outline: none;
   border: none;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   font-weight: 100;
   cursor: pointer;
 }
@@ -130,16 +133,25 @@ section{
   text-transform: capitalize;
   color: white;
   padding-top: 9rem;
-  margin: 3rem;
+  margin: 6rem;
   margin-top: 8rem;
+}
+
+.info h1{
+  font-size: 4rem;
+}
+
+.info p{
+  font-size: 2.6rem;
 }
 
 .info .contact-btn{
   text-transform: capitalize;
-  padding: 0.7rem 2rem;
+  padding: 1rem 3rem;
   opacity:0.7;
   align-items: center;
   border: none;
+  font-size: 2.6rem;
 }
 
 /*===========Section==========*/
@@ -147,18 +159,20 @@ section{
 /*==========about ==========*/
  #about{
   text-align: center;
-  padding:0 3rem;
-  line-height: 2rem;
+  padding:0 8rem;
+  line-height: 4rem;
   margin: 0 auto;
 }
 #about h1{
-  font-family: Monospace;
-  font-size: 2rem;
+  font-family: Times New Roman;
+  font-size: 4rem;
   text-transform: capitalize;
   font-weight: 100;
   margin-top: 0;
 }
-
+.pg{
+  margin: 2.6rem;
+}
 .products{
   margin-top: 1rem;
   line-height: 2rem;
@@ -182,7 +196,7 @@ section{
   transform: translate(0);
 }
 .about-img{
-  height: 200px;
+  height: 30vh;
   width: 100%;
  object-fit: cover;
  object-position: center;
@@ -195,6 +209,7 @@ section{
   color: white;
   margin: 0.5rem;
   text-align: center;
+  font-size: 1rem;
 }
 
 .about-info p,
@@ -212,19 +227,19 @@ section{
   color: white;
   text-transform: capitalize;
   align-items: center;
-  font-size: 18px;
+  font-size: 3rem;
   margin-bottom: 4rem;
 }
 
 .pic{
-  height: 200px;
+  height: 30vh;
   width: 100%;
   object-fit: cover;
 }
 
 /*=========service ===============*/
 #service{
-  padding: 0 3rem;
+  padding: 0 8rem;
   font-family: Times New Roman;
   line-height: 2rem;
 }
@@ -240,6 +255,10 @@ section{
   text-transform: capitalize;
 }
 
+.service-info p {
+  font-family: Monospace;
+}
+
 .single-service{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -247,7 +266,7 @@ section{
   place-content: center;
   align-items: center;
   margin: 2rem auto;
-  line-height: 1rem;
+  line-height: 3rem;
   font-family: Monospace;
   opacity: 0;
   transform: translateY(100px);
@@ -261,7 +280,7 @@ section{
 
 .single-service .icon{
   color: red;
-  font-size: 2rem;
+  font-size: 4rem;
   background:none;
   outline: none;
   appearance: none;
@@ -273,10 +292,10 @@ section{
 
 .single-service span{
   display: block;
-margin: 0;
+  margin: 0;
   padding: 0 0 0 1rem;
   text-transform: capitalize;
-  font-size: 0.9rem;
+  font-size: 2rem;
   font-weight: 200;
 }
 /*=========end of service section ==== */
@@ -296,7 +315,8 @@ margin: 0;
   color: white;
   font-family: Times New Roman;
   padding: 10px;
-  padding-top: 50%;
+  padding-top: 40%;
+  font-size: 3rem;
   z-index: 1;
 }
 .faq-questions{
@@ -312,10 +332,17 @@ margin: 0;
   text-transform: capitalize;
 }
 
+.single-question p{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Sans-Serif;
+}
+
 .faq-btn{
   outline: none;
   background: none;
   border: none;
+  font-size: 2rem;
 }
 .faq-btn{
   cursor: pointer;
@@ -349,7 +376,7 @@ margin: 0;
 }
 
 /*
-@media only screen and (min-width:1700px){
+@media (min-width:900px){
   header{
     height: 50vh;
   }
@@ -384,6 +411,7 @@ margin: 0;
   .navlinks a{
     display: block;
     margin: 0 2rem;
+    font-size: 2rem;
   }
   
   
@@ -420,5 +448,8 @@ margin: 0;
   .about-info h2{
     font-size: 15px;
   }
-}
-*/
+  
+  .single-service .icon{
+    font-size: 4rem;
+  }
+}*/
